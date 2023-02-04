@@ -1,0 +1,33 @@
+body {
+  padding: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  border: 0px solid;
+  margin: auto;
+  width: 10%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekday {
+  color: black;
+  font-size: 20px;
+  border: 0px solid;
+  padding: 10px;
+}
+.calender-day-disable {
+  color: rgb(189, 182, 182);
+  padding: 20px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.calender-day {
+  padding: 20px;
+  font-weight: bold;
+  border: 1px solid lightgrey;
+}
+.current-day {
+  background-color: blue;
+}
