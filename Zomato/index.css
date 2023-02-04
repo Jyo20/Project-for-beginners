@@ -2,7 +2,7 @@ body{
     font-family: 'Okra', Helvetica, sans-serif
 }
 #container{
-   height: 400px;
+   height: 500px;
     background: url("./brooke-lark-M4E7X3z80PQ-unsplash.jpg");
 
 }
@@ -48,5 +48,64 @@ li a{
  text-decoration: none;
  color: white;
  font-family: 'Okra', Helvetica, sans-serif
+
+}
+
+/* CSS FOR HEADING CLASS*/
+.heading{
+    border: 0px solid;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.heading h1{
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 1000;
+    border: 0px solid;
+    padding: 0px;
+}
+.heading h2{
+    font-size: 2rem;
+    margin-top:2px;
+    border: 0px solid;
+}
+.line{
+    border: 0px solid;
+    width: 100px;
+    font-weight: 100;
+    font-size: 30px;color: rgb(180, 173, 173);
+}
+.search{
+    border: 0px solid;
+    width:900px;
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+    border-radius: 14px;
+    
+}
+
+.search-location{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: 0px solid;
+
+}
+.search-dish{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.search:nth-child(1){
+    padding-top: 20px;border: 1px solid;
 
 }
