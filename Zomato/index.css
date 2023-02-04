@@ -1,0 +1,52 @@
+body{
+    font-family: 'Okra', Helvetica, sans-serif
+}
+#container{
+   height: 400px;
+    background: url("./brooke-lark-M4E7X3z80PQ-unsplash.jpg");
+
+}
+.navbar{
+   border: 0px solid; 
+   display: flex;
+   justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+     margin-left:40px;
+     width: 400px;
+     border: 0px solid white;
+    }
+   
+.logo p{
+    margin-left:5px;
+    color:white
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 0px solid white;
+    margin-right: 100px;
+    width: 50%;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    
+}
+li{
+    list-style: none;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+li a{
+ text-decoration: none;
+ color: white;
+ font-family: 'Okra', Helvetica, sans-serif
+
+}
