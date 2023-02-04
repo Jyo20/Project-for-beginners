@@ -66,11 +66,14 @@ li a{
     font-weight: 1000;
     border: 0px solid;
     padding: 0px;
+    line-height: 50px;
 }
 .heading h2{
     font-size: 2rem;
     margin-top:2px;
     border: 0px solid;
+    line-height: 50px;
+   
 }
 .line{
     border: 0px solid;
@@ -86,6 +89,7 @@ li a{
     text-align: left;
     background-color: white;
     border-radius: 14px;
+    
     
 }
 
