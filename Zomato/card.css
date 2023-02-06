@@ -1,0 +1,57 @@
+body {
+  font-family: Okra, Helvetica, sans-serif;
+}
+nav {
+  border: 0px solid;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav img {
+  border: 0px solid;
+  width: 150px;
+}
+.search {
+  border: 1px solid rgb(232, 232, 232);
+  padding: 10px;
+  width: 900px;
+  height: 2.4rem;
+  margin-right: 0px;
+  box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+}
+.search-dish {
+  width: 600px;
+}
+.line {
+  border: 0px solid;
+  width: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(180, 173, 173);
+}
+.login-button {
+  width: 200px;
+  border: 0px solid;
+  padding: 10px;
+}
+.login,
+.signup {
+  margin: 10px;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  color: rgb(105, 105, 105);
+}
+/*Navbar End*/
