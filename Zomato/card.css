@@ -55,3 +55,51 @@ nav img {
   color: rgb(105, 105, 105);
 }
 /*Navbar End*/
+/**Container css */
+.container {
+  border: 0px solid;
+  margin-left: 50px;
+  display: flex;
+
+  flex-direction: row;
+}
+.card-container {
+  border: 0px solid green;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.card-container .img {
+  background-color: rgb(252, 238, 192);
+  width: 80px;
+  height: 70px;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 50%;
+  border: 0px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .img > img {
+  width: 80;
+  height: 40px;
+  margin: 30px;
+  border: 0px solid rgb(28, 25, 253);
+}
+.card-container h4 {
+  font-size: 25px;
+  color: rgb(239, 79, 95);
+  font-weight: 300;
+}
+.card-container .grey {
+  background-color: rgb(235, 234, 234);
+}
+.card-container .grey-color {
+  color: rgb(105, 105, 105);
+}
+/* container css End*/
+/**Filter css*/
