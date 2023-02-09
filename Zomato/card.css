@@ -1,5 +1,5 @@
 body {
-  font-family: Okra, Helvetica, sans-serif;
+  font-family: "Okra", Helvetica, sans-serif;
 }
 nav {
   border: 0px solid;
@@ -181,4 +181,105 @@ nav img {
 .brand-card h6 + h6 {
   font-size: 15px;
   color: rgb(92, 90, 90);
+}
+/*Grid container CSS*/
+.food-container {
+  border: 0px solid;
+  width: 100%;
+  margin: 0 0px 0px 30px;
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(3, 10fr);
+}
+.food-card {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid;
+  margin: 20px;
+  padding: 20px;
+}
+.food-card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+}
+.food-card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  border: 0px solid red;
+}
+.abs {
+  border: 0px solid blueviolet;
+}
+.food-heading {
+  display: flex;
+  border: 0px solid;
+  justify-content: space-between;
+  align-items: center;
+}
+.food-heading h2 {
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+  border: 0px solid;
+  margin: 10px;
+}
+.star {
+  border: 1px solid rgb(38, 126, 62);
+  padding: 8px;
+  background-color: rgb(38, 126, 62);
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  width: 50px;
+  height: 10px;
+  margin: 0;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.food-location {
+  display: flex;
+  justify-content: space-between;
+  border: 0px solid;
+  color: rgb(105, 105, 105);
+  line-height: 1px;
+  margin-left: 10px;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.food-location h5 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.line-bar {
+  border: 0px solid;
+  height: 0.1rem;
+  background-color: rgb(218, 214, 214);
+  margin-bottom: 0.5;
+  margin: 0 5px 0 10px;
+  width: 400px;
+}
+.logo-order {
+  border: 0px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(130, 130, 130);
+}
+.logo-order p {
+  font-size: 15px;
+}
+
+.logo-order .lg {
+  width: 25px;
+  height: 25px;
+}
+
+.logo-order .lg2 {
+  width: 80px;
+  height: 25px;
+  border: 0px solid;
+  border-radius: 0;
 }
