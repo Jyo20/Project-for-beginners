@@ -251,19 +251,20 @@ footer {
 .footer-card {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-left: 70px;
   margin-top: 30px;
 }
-.footer-card h5 {
-  font-size: 40px;
-  font-weight: 1000;
-  font-style: italic;
+.footer-card img {
+  width: 100px;
+  height: 40px;
   border: 0px solid;
+
 }
 
 .box {
   border: 0px solid red;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-right: 100px;
 }
 select {
@@ -286,7 +287,7 @@ select {
   width: 90%;
   border: 0px solid;
   margin: auto;
-  padding: 20px;
+  padding: 0;
 }
 .footer-container {
   border: 0px solid green;

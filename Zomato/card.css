@@ -105,11 +105,16 @@ nav img {
 /**Filter css*/
 .filter-container {
   border: 0px solid;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin-left: 70px;
   display: flex;
   flex-direction: row;
   padding: 0;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  flex-wrap: wrap;
+  z-index: 2;
 }
 .filter-card-container {
   display: flex;
@@ -326,4 +331,86 @@ nav img {
   height: 25px;
   border: 0px solid;
   border-radius: 0;
+}
+/*Footer Css */
+footer {
+  border: 0px solid;
+  background-color: rgb(245, 244, 244);
+  width: 100%;
+}
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.footer-card img {
+  width: 100px;
+  height: 40px;
+  border: 0px solid;
+}
+
+.box {
+  border: 0px solid red;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+select {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(228, 223, 223);
+}
+
+.option {
+  width: 500px;
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 90%;
+  border: 0px solid;
+  margin: auto;
+  padding: 0;
+}
+.footer-container {
+  border: 0px solid green;
+  margin: 20px;
+}
+.footer-container h5 {
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-family: "okra", sans-serif;
+  font-weight: 500;
+}
+
+.footer-container h6 {
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "okra", sans-serif;
+  color: rgb(105, 105, 105);
+  line-height: 1px;
+  letter-spacing: 1px;
+}
+.footer-container img {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+}
+
+.line2 {
+  border: 1px solid rgb(223, 223, 223);
+  width: 90%;
+  margin: auto;
+}
+.copyright {
+  margin-left: 50px;
+  color: rgb(79, 79, 79);
+  line-height: 1.7rem;
+  font-family: "okra", sans-serif;
 }
