@@ -197,6 +197,7 @@ nav img {
   border: 0px solid;
   margin: 20px;
   padding: 20px;
+  cursor: pointer;
 }
 .food-card:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -210,6 +211,49 @@ nav img {
 }
 .abs {
   border: 0px solid blueviolet;
+  position: relative;
+}
+.promoted {
+  position: absolute;
+  top: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 12px;
+}
+.offer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer2 {
+  position: absolute;
+  bottom: 40px;
+  padding: 0px;
+}
+.offer2 h5 {
+  background-color: rgb(217, 38, 98);
+  padding: 5px;
+  color: white;
+}
+.offer .blue {
+  background-color: blue;
+  border: 0px solid;
+  padding: 5px;
+}
+.offer .grey {
+  background-color: lightgray;
+  color: black;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 .food-heading {
   display: flex;
