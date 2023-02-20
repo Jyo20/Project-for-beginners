@@ -159,6 +159,18 @@ select {
   cursor: pointer;
   margin-top: 30px;
 }
+.rent1 {
+  background-color: #0f79af;
+  padding: 10px;
+  width: 300px;
+  color: rgba(242, 244, 246, 0.9);
+  font-size: 18px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
 .image-heading .rent {
   height: 60px;
 }
@@ -217,4 +229,119 @@ select {
   width: 100%;
   border: 0px solid;
   height: 100%;
+}
+/*black container CSS*/
+.black-container {
+  border: 1px solid;
+  width: 101%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+}
+.black-card-containerone {
+  width: 100%;
+  border: 0px solid red;
+  position: relative;
+  height: 530px;
+  background-image: linear-gradient(to left, #000 40%, transparent 58%),
+    url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+  background-position: left top;
+}
+.black-card-containerone img {
+  width: 101%;
+}
+.black-card-containerone .abs-box {
+  position: absolute;
+  width: 600px;
+  right: 0;
+  top: 0;
+  text-align: left;
+  border: 0px solid;
+  color: white;
+  margin-top: 100px;
+}
+.black-card-containerone .abs-box h1 {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  font-style: normal;
+}
+.black-card-containerone .abs-box p {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27.3px;
+  font-style: normal;
+}
+.black-card-containertwo {
+  width: 100%;
+  border: 1px solid;
+  height: 450px;
+  background-image: linear-gradient(to top, #000 0%, transparent 20%),
+    url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+}
+.black-card-containertwo .abs-box2 {
+  width: 500px;
+  color: white;
+  margin: 80px;
+}
+.black-card-containertwo .abs-box2 h1 {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  font-style: normal;
+}
+.black-card-containertwo .abs-box2 p {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 27.3px;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.rent {
+  padding: 20px;
+}
+.footer {
+  background-color: #0f171e;
+  border: 0px solid red;
+  width: 92.5%;
+  color: white;
+  padding: 50px;
+}
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-card img {
+  width: 120px;
+}
+.privacy {
+  border: 0px solid white;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.privacy p {
+  line-height: 0px;
+  color: rgb(15, 121, 175);
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-card > p {
+  border: 0px solid;
+  margin-top: 0;
+  color: rgb(148, 148, 148);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
 }
