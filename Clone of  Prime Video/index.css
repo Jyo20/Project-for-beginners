@@ -310,9 +310,8 @@ select {
 .footer {
   background-color: #0f171e;
   border: 0px solid red;
-  width: 92.5%;
+  width: 100%;
   color: white;
-  padding: 50px;
 }
 .footer-card {
   display: flex;
@@ -320,6 +319,8 @@ select {
   text-align: justify;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-card img {
@@ -330,6 +331,7 @@ select {
   width: 350px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .privacy p {
   line-height: 0px;
