@@ -1,3 +1,4 @@
+/*background image container CSS*/
 .main-container {
   border: 1px solid;
   width: 100%;
@@ -8,6 +9,7 @@
   width: 100%;
   height: 800px;
 }
+/*Navbar Css*/
 nav {
   position: absolute;
   top: 0;
@@ -24,7 +26,6 @@ nav {
   z-index: 1000;
   align-items: center;
   font-family: "Graphik Web", sans-serif;
-  padding: 0px 0px 0px 0px;
 }
 .login {
   color: rgb(168, 175, 189);
@@ -42,9 +43,209 @@ nav {
   line-height: 1;
   letter-spacing: 0.6px;
   text-transform: uppercase;
+  margin-right: 40px;
 }
 .login:hover {
   color: #a8afbd;
   background-color: #323843;
   border: 0px solid;
+}
+.logo {
+  border: 0px solid red;
+  margin-left: 40px;
+}
+
+/* icon container Css  */
+.icon-container {
+  border: 0px solid red;
+  position: absolute;
+  top: 100px;
+  right: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+}
+.icon-container h1 {
+  width: 100%;
+}
+.icon-container h1 img {
+  width: 100%;
+  height: 150px;
+  border: 0px solid;
+}
+.heading-line {
+  color: #00ed82;
+  padding-bottom: 8px;
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.subheading-line {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.24;
+  text-transform: none;
+  margin-top: 16px;
+}
+.get-button {
+  background-color: #1ce783;
+  width: 100%;
+  height: 48px;
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  padding: 0 24px;
+  color: #040405;
+  min-width: 64px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  align-items: center;
+  border: none;
+  margin: 20px;
+  cursor: pointer;
+}
+.get-button:hover {
+  opacity: 0.6;
+}
+button + span {
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5px;
+  letter-spacing: 1px;
+  font-family: "Graphik Web", "Graphik", sans-serif;
+}
+.signup-button a {
+  color: #fff;
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  text-decoration: underline;
+}
+/*End icon contaier CSS*/
+
+/*FlexBox container CSS*/
+.flexbox-container {
+  border: 1px solid;
+  position: absolute;
+  bottom: 0;
+  border: 0px solid red;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  background: linear-gradient(
+    179.81deg,
+    rgba(4, 4, 4, 0.7) 0.17%,
+    rgba(4, 4, 4, 0.45) 85.02%,
+    rgba(4, 4, 4, 0.3) 112.52%
+  ) !important;
+}
+.flexbox-card img {
+  width: 105%;
+  height: 80px;
+}
+.headingone {
+  color: #00ed82;
+  font-family: "Graphik Web", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.flexbox-card span {
+  font-family: "Graphik Web", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: 0;
+  border: 1px solid red;
+  margin-left: 40px;
+}
+.flexbox-card + .flexbox-card + .flexbox-card {
+  margin: auto;
+  width: 300px;
+  border: 0px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox-card button {
+  border: 2px solid white;
+  background: linear-gradient(
+    179.81deg,
+    rgba(4, 4, 4, 0.7) 0.17%,
+    rgba(4, 4, 4, 0.45) 85.02%,
+    rgba(4, 4, 4, 0.3) 112.52%
+  ) !important;
+  color: #fff;
+  width: 180px;
+  font-family: "Graphik Web", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  min-width: 64px;
+  border-radius: 4px;
+  padding: 0 24px;
+  height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+.flexbox-card button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.flexbox-card p {
+  line-height: 1px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.7;
+  border: 0px solid;
+  width: 100px;
+  margin-left: 350px;
+}
+.flexbox-card p:hover {
+  text-decoration: none;
+}
+/*Media Query*/
+@media (min-width: 1024px) {
+  .icon-container {
+    width: 670px;
+  }
+  .icon-container > h1 {
+    width: 570px;
+  }
+}
+@media (min-width: 768px) {
+  .icon-container > h1 {
+    font-family: "Graphik Web", "Graphik", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+    text-transform: none;
+  }
 }
