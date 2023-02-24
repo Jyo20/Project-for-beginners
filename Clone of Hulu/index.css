@@ -176,7 +176,7 @@ button + span {
   font-weight: 400;
   line-height: 1.9;
   letter-spacing: 0;
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 40px;
 }
 .flexbox-card + .flexbox-card + .flexbox-card {
@@ -212,8 +212,15 @@ button + span {
   margin-top: 20px;
   margin-left: 300px;
 }
-.flexbox-card button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+.hover:hover {
+  background: linear-gradient(
+    179.81deg,
+    rgba(255, 255, 255, 0.7) 100%,
+    rgba(253, 253, 253, 0.45) 85.02%,
+    rgba(255, 255, 255, 0.3) 112.52%
+  ) !important;
+  color: rgb(61, 61, 61);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .flexbox-card p {
@@ -230,6 +237,194 @@ button + span {
 .flexbox-card p:hover {
   text-decoration: none;
 }
+/*******************Black container CSS****************/
+.black-container {
+  border: 0px solid;
+  background-color: #0b0c0f;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+.black-card {
+  border: 0px solid red;
+}
+.card1 {
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.card1 span {
+  color: #00ed82;
+  font-family: "Graphik Web", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 auto;
+  border: 0px solid;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.card1 h2 {
+  font-family: "Graphik Web", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+  border: 0px solid;
+  letter-spacing: -0.5px;
+  margin: 30px auto;
+}
+.card1 p {
+  max-width: 680px;
+  margin: 0 auto;
+  font-family: "Graphik Web", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0;
+  color: rgb(255, 255, 255);
+}
+
+/*Card2 CSS*/
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.movie-card {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.movie-card img {
+  width: 100%;
+  object-fit: contain;
+}
+.abs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  border: 0px solid red;
+  margin: 20px;
+}
+.abs span {
+  font-family: "Graphik Web", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 0;
+  padding: 0;
+}
+.abs h3 {
+  border: 0px solid;
+  margin-top: 10px;
+}
+.movie-card span {
+  color: white;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Graphik Web", sans-serif;
+  font-weight: 400;
+}
+/*Card3 CSS*/
+.card3 {
+  width: 100%;
+  height: 300px;
+  border: 0px solid red;
+}
+.card4 {
+  max-width: 786px;
+  padding: 100px 0;
+  border: 0px solid red;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.card4 span {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #1ce783;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.card4 h2 {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+}
+.card4 h3 {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.76px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+.card4 p {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14.6px;
+  color: rgb(255, 255, 255, 0.6);
+}
+.card4 a {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  opacity: 0.8;
+  color: #fff;
+}
+.card4 button {
+  background: url(/static/hitch/static/icons/dropdown_arrow.svg) no-repeat
+    center;
+  margin: auto;
+  height: 16px;
+  margin-top: 55px;
+  cursor: pointer;
+  width: 18px;
+  border: none;
+  text-align: center;
+  position: absolute;
+  border: 0px solid red;
+}
+.card4 button :after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 50px;
+  height: 1px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.card4 button img {
+  animation: jumpInfinite 2.5s infinite;
+}
+
 /*Media Query*/
 @media (min-width: 1024px) {
   .icon-container {
@@ -247,5 +442,7 @@ button + span {
     letter-spacing: -0.5px;
     line-height: 1.25;
     text-transform: none;
+  }
+  .card1 {
   }
 }
