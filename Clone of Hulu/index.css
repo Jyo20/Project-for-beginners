@@ -398,31 +398,122 @@ button + span {
   position: absolute;
   border: 0px solid red;
 }
-.card4 button :after {
-  content: " ";
-  position: absolute;
-  top: 12px;
-  left: -10px;
-  width: 50px;
-  height: 1px;
-  border-bottom: 4px solid;
-  border-right: 4px solid;
-  border-radius: 4px;
-  transform: rotateZ(45deg);
-}
+/*Animation*/
 @keyframes jumpInfinite {
   0% {
     margin-top: 0;
   }
   50% {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   100% {
     margin-top: 0;
   }
 }
 .card4 button img {
-  animation: jumpInfinite 2.5s infinite;
+  animation: jumpInfinite 1.5s infinite;
+}
+/*Green Box Contaier CSS*/
+.green-container {
+  width: 100%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) -57.5%,
+      rgba(0, 0, 0, 0) 98.72%
+    ),
+    url(https://cnbl-cdn.bamgrid.com/assets/b8c6dfb74d0a755e8df205721c87b1f8b74821b4229c78492ecca29a2635db9e/original);
+  background-size: cover;
+  height: 800px;
+  display: flex;
+}
+.green-box-container {
+  display: flex;
+  border: 0px solid yellow;
+  margin-left: 150px;
+  flex-direction: column;
+}
+.green-card {
+  text-transform: uppercase;
+  margin-top: 150px;
+  cursor: pointer;
+  color: rgba(200, 200, 200, 0.4);
+  border: 0px solid;
+  font-size: 12px;
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  display: flex;
+}
+.green-card h3 {
+  margin: 20px;
+}
+.green-card h3 {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13.5px;
+  color: rgb(158, 155, 155);
+}
+.green-card h3:hover {
+  color: rgba(255, 255, 255);
+  border-bottom: 5px solid white;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1;
+}
+.green-card h3:active {
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+.sport-container {
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 0px solid;
+  width: 500px;
+  color: white;
+}
+.sport-container span {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+}
+.sport-container span + p {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.76px;
+  color: rgb(255, 255, 255);
+}
+
+.sport-container > .icon-box {
+  border: 0px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-top: 30px;
+}
+.img-class {
+  border: 0px solid rgb(28, 0, 128);
+  width: 50px;
+  margin: 0;
+  background-color: white;
+  border-radius: 50%;
+}
+.img-class > img {
+  width: 90%;
+  overflow: hidden;
+  border: 0px solid red;
+}
+.p-head,
+.p-head a {
+  font-family: "Graphik Web", "Graphik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14.6px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 30px auto;
 }
 
 /*Media Query*/
@@ -442,7 +533,5 @@ button + span {
     letter-spacing: -0.5px;
     line-height: 1.25;
     text-transform: none;
-  }
-  .card1 {
   }
 }
