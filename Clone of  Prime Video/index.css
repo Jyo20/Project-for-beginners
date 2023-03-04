@@ -1,0 +1,349 @@
+/*Navbar Css*/
+nav {
+  width: 98.9%;
+  border: 0px solid;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  background-color: #0f171e;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 70px;
+}
+nav a img {
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  border: 0px solid;
+}
+nav .navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  margin-left: 25px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.navbar-list li {
+  margin-left: 30px;
+  list-style: none;
+}
+.navbar-list li a {
+  text-decoration: none;
+  color: rgba(242, 244, 246, 0.9);
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-size: 18px;
+}
+.category-container {
+  display: none;
+}
+
+.navbar-button-container {
+  border: 0px solid;
+  margin-left: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+.try-button {
+  margin-right: 15px;
+  background-color: #0f79af;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+  color: rgba(242, 244, 246, 0.9);
+  border-radius: 3px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-size: 17px;
+  font-weight: lighter;
+  border: none;
+}
+.bi-search {
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+select {
+  width: 50px;
+  margin-left: 5px;
+  background-color: #0f171e;
+  border: none;
+  font-size: 18px;
+  color: rgba(242, 244, 246, 0.9);
+}
+.bi-person {
+  margin-left: 10px;
+}
+/*Image container CSS Start*/
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 101%;
+  border: 0px solid;
+}
+.main-container-image1 {
+  width: 100%;
+  height: 510px;
+  position: relative;
+  background-image: linear-gradient(to right, #000 40%, transparent 60%),
+    url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+  background-size: cover;
+  color: white;
+}
+.main-container-image {
+  width: 100%;
+  height: 450px;
+  top: 0;
+  position: relative;
+  background-image: linear-gradient(to left, #000 43%, transparent 50%),
+    url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg");
+  background-size: cover;
+  color: white;
+}
+.image-heading1 {
+  width: 800px;
+  position: absolute;
+  top: 0;
+  margin: 25px 0px 0px 50px;
+  font-weight: lighter;
+  border: 0px solid red;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+.image-heading1 h6 {
+  font-size: 25px;
+  font-weight: lighter;
+  border: 0px solid;
+  margin: 0;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+.image-heading1 p {
+  font-weight: 200;
+  font-size: 44.8px;
+  line-height: 49.6px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+.image-heading {
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  text-align: left;
+  border: 0px solid red;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+.image-heading > h1 {
+  font-size: 40px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.image-heading > h5 {
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 0px;
+}
+.rent {
+  background-color: #0f79af;
+  padding: 10px;
+  width: 300px;
+  color: rgba(242, 244, 246, 0.9);
+  font-size: 18px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.rent1 {
+  background-color: #0f79af;
+  padding: 10px;
+  width: 300px;
+  color: rgba(242, 244, 246, 0.9);
+  font-size: 18px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.image-heading .rent {
+  height: 60px;
+}
+
+/*Image container CSS End*/
+
+.channel-container {
+  border: 0px solid;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+}
+.channel-card {
+  border: 0px solid red;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 20px;
+  color: #000;
+}
+
+.flex h1 {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 44px;
+  font-style: normal;
+}
+
+.flex p {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 0;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card {
+  border: 0px solid;
+  height: 150px;
+}
+
+.card img {
+  width: 100%;
+  border: 0px solid;
+  height: 100%;
+}
+/*black container CSS*/
+.black-container {
+  border: 1px solid;
+  width: 101%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+}
+.black-card-containerone {
+  width: 100%;
+  border: 0px solid red;
+  position: relative;
+  height: 530px;
+  background-image: linear-gradient(to left, #000 40%, transparent 58%),
+    url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+  background-position: left top;
+}
+.black-card-containerone img {
+  width: 101%;
+}
+.black-card-containerone .abs-box {
+  position: absolute;
+  width: 600px;
+  right: 0;
+  top: 0;
+  text-align: left;
+  border: 0px solid;
+  color: white;
+  margin-top: 100px;
+}
+.black-card-containerone .abs-box h1 {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  font-style: normal;
+}
+.black-card-containerone .abs-box p {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27.3px;
+  font-style: normal;
+}
+.black-card-containertwo {
+  width: 100%;
+  border: 1px solid;
+  height: 450px;
+  background-image: linear-gradient(to top, #000 0%, transparent 20%),
+    url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+}
+.black-card-containertwo .abs-box2 {
+  width: 500px;
+  color: white;
+  margin: 80px;
+}
+.black-card-containertwo .abs-box2 h1 {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  font-style: normal;
+}
+.black-card-containertwo .abs-box2 p {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 27.3px;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.rent {
+  padding: 20px;
+}
+.footer {
+  background-color: #0f171e;
+  border: 0px solid red;
+  width: 100%;
+  color: white;
+}
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-card img {
+  width: 120px;
+}
+.privacy {
+  border: 0px solid white;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.privacy p {
+  line-height: 0px;
+  color: rgb(15, 121, 175);
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-card > p {
+  border: 0px solid;
+  margin-top: 0;
+  color: rgb(148, 148, 148);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
