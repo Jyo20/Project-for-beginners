@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*================== navbar===================== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333 !important;
+  padding: 10px;
+  font-weight: 400;
+  color: #ddd;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+#nav {
+  width: 800px;
+}
+#nav > ul {
+  display: flex;
+  gap: 20px;
+  text-transform: uppercase;
+}
+#nav > ul > li,
+a {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 1.4px;
+  margin-left: 15px;
+  color: #ddd;
+}
+#logo {
+  font-weight: 600;
+  font-size: 26px;
+}
+#nav > ul > li > a:hover {
+  color: #6aaf08;
+}
