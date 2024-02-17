@@ -42,11 +42,15 @@ a {
   color: #6aaf08;
 }
 /*================== Section 1===================== */
+/*================== Section 1===================== */
 #box1 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #box1 {
+  display: block;
+  box-sizing: border-box;
   position: relative;
   color: #fff;
   background-color: #e5e5e5;
@@ -54,10 +58,11 @@ a {
 }
 #box1 > #abs {
   position: absolute;
-  left: 200px;
-  right: 100px;
+  left: 10%;
+  right: 10%;
+  max-width: 80%;
   letter-spacing: -1px;
-  top: 250px;
+  top: 200px;
   text-align: center;
   /* width: 500px; */
 }
@@ -86,4 +91,61 @@ a {
   font-weight: 400;
   border-radius: 6px;
   margin-top: 20px;
+}
+/*================== Section 2===================== */
+#box2 {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid; */
+  justify-content: space-between;
+  margin: auto;
+  gap: 10px;
+  margin: 80px;
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+}
+#leftbox {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  width: 50%;
+}
+#leftbox > h3 > span {
+  color: green;
+}
+#leftbox > h3 {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+#leftbox > .btn1 {
+  width: 250px;
+  margin-top: 20px;
+}
+.flex {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+  width: 50%;
+}
+.flex > div {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  width: 100%;
+}
+.flex > div > img {
+  width: 100%;
+}
+.flex > div > h3 {
+  margin-bottom: 0;
+}
+#leftbox > hr {
+  width: 50px;
+  margin: 0 0 20px 0;
+  text-align: center;
+  border: 2px solid green;
+}
+#leftbox > p {
+  line-height: 25px;
 }
