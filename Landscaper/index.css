@@ -41,3 +41,49 @@ a {
 #nav > ul > li > a:hover {
   color: #6aaf08;
 }
+/*================== Section 1===================== */
+#box1 img {
+  width: 100%;
+}
+
+#box1 {
+  position: relative;
+  color: #fff;
+  background-color: #e5e5e5;
+  background-repeat: no-repeat;
+}
+#box1 > #abs {
+  position: absolute;
+  left: 200px;
+  right: 100px;
+  letter-spacing: -1px;
+  top: 250px;
+  text-align: center;
+  /* width: 500px; */
+}
+#abs h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 64px;
+}
+#abs p {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+.btn1 {
+  background-color: #6aaf08;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 14px 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 6px;
+  margin-top: 20px;
+}
