@@ -149,3 +149,51 @@ a {
 #leftbox > p {
   line-height: 25px;
 }
+/*================== Section 3 ===================== */
+
+#box3 {
+  background-color: #6aaf08;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+#box3 > div {
+  display: flex;
+  gap: 1px;
+  width: 90%;
+  justify-content: center;
+  /* border: 1px solid; */
+  margin: auto;
+  padding: 120px 0;
+}
+#box3 > div > div {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px 10px 40px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+#box3 > div > div > img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 10px solid rgba(255, 255, 255, 0.1);
+}
+#box3 > hr,
+#box5 > div > hr,
+#box6 > hr {
+  width: 80px;
+  border: 2px solid;
+  margin-bottom: 50px;
+}
+#box3 > h2,
+#box4 > h2,
+#box5 > div > h1,
+#box6 > h2 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
